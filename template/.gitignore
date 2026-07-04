@@ -3,6 +3,7 @@
 node_modules/
 .DS_Store
 Thumbs.db
+.obsidian/
 raw/**/*.secret.*
 raw/**/*.dump
 raw/**/*.bak
