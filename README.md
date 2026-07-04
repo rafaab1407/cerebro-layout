@@ -41,9 +41,9 @@ Referencia principal: https://www.aibyaakash.com/p/karpathy-second-brain
 
 ### 1. Raw
 
-`raw/` e a caixa de entrada.
+`raw/` e a caixa de entrada. Ela suporta conhecimento geral e insumos especificos de projetos.
 
-Coloque aqui:
+Use para:
 
 - artigos
 - clippings
@@ -52,6 +52,7 @@ Coloque aqui:
 - rascunhos
 - ideias soltas
 - notas de reuniao
+- materiais especificos de um projeto
 
 Regra: o humano captura; o agente compila.
 
@@ -94,8 +95,10 @@ cerebro/
 |       |-- refactor.md
 |       `-- lint.md
 |-- raw/
+|   |-- inbox/
 |   |-- clippings/
-|   `-- scratchpad/
+|   |-- scratchpad/
+|   `-- projetos/
 `-- wiki/
     |-- index.md
     |-- log.md
@@ -104,6 +107,30 @@ cerebro/
     `-- projetos/
         `-- .gitkeep
 ```
+
+## Raw geral e Raw por projeto
+
+O `raw/` suporta dois tipos de entrada:
+
+- conhecimento geral, que pode virar conceitos reutilizaveis na Wiki;
+- material especifico de projeto, que deve alimentar `wiki/projetos/<nome>/`.
+
+Use assim:
+
+```text
+raw/
+|-- inbox/          # entrada rapida sem destino claro
+|-- clippings/      # conhecimento geral e referencias reaproveitaveis
+|-- scratchpad/     # rascunhos livres
+`-- projetos/       # insumos por projeto
+    `-- website-profissional/
+        |-- referencias/
+        |-- copy/
+        |-- prints/
+        `-- notas/
+```
+
+Regra pratica: se o material tem projeto claro, coloque em `raw/projetos/<nome>/`; se e conhecimento geral, use `raw/clippings/`; se ainda nao sabe, use `raw/inbox/`.
 
 ## Como usar
 
