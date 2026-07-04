@@ -16,17 +16,21 @@ A pasta `wiki/` nao e um caderno manual comum. Ela e memoria compilada por agent
 
 ## Camada 1: Raw
 
-`raw/` e a caixa de entrada imutavel.
+`raw/` e a caixa de entrada imutavel. Ela suporta conhecimento geral e insumos especificos de projetos.
 
-Use para:
+Estrutura recomendada:
 
-- clippings
-- transcricoes
-- logs
-- rascunhos
-- ideias soltas
-- notas de reuniao
-- material bruto ainda nao processado
+- `raw/inbox/`: entrada rapida ainda sem destino claro.
+- `raw/clippings/`: conhecimento geral, artigos, referencias e trechos reaproveitaveis.
+- `raw/scratchpad/`: rascunhos soltos, ideias incompletas e notas de pensamento.
+- `raw/projetos/<nome-projeto>/`: material bruto especifico de um projeto.
+
+Exemplos por projeto:
+
+- `raw/projetos/website-profissional/referencias/`
+- `raw/projetos/website-profissional/copy/`
+- `raw/projetos/website-profissional/prints/`
+- `raw/projetos/website-profissional/notas/`
 
 Regras:
 
@@ -34,6 +38,9 @@ Regras:
 - Nao tentar organizar demais a entrada.
 - Processar uma fonte por vez sempre que possivel.
 - Se uma fonte for grande, primeiro criar uma nota de triagem.
+- Quando o material tiver projeto claro, colocar em `raw/projetos/<nome-projeto>/`.
+- Quando o material for conhecimento geral, usar `raw/clippings/`.
+- Quando nao houver destino claro, usar `raw/inbox/` e classificar depois.
 
 ## Camada 2: Wiki
 
