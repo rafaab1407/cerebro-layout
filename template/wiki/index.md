@@ -24,3 +24,10 @@ _Debugs, incidentes e decisoes tecnicas recorrentes entram aqui._
 ## Fontes Recentes
 
 _Novas fontes compiladas devem aparecer aqui com wikilinks._
+
+## Raw
+
+- `raw/inbox/` - Entrada rapida sem destino claro.
+- `raw/clippings/` - Conhecimento geral e referencias reaproveitaveis.
+- `raw/scratchpad/` - Rascunhos soltos e pensamento em andamento.
+- `raw/projetos/` - Material bruto organizado por projeto.
